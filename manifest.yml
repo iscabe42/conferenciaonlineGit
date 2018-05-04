@@ -1,0 +1,9 @@
+applications:
+- path: target/Mediacion.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: qamediacion
+  host: qamediacion
+  disk_quota: 1024M
+  buildpack: java_buildpack
