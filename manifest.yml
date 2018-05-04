@@ -1,9 +1,9 @@
 applications:
-- path: target/Mediacion.war
-  memory: 512M
+- path: target/conferenciaeclipse.war
+  memory: 256M
   instances: 1
   domain: mybluemix.net
-  name: qamediacion
-  host: qamediacion
-  disk_quota: 1024M
+  name: conferenciasonline
+  host: conferenciasonline
+  disk_quota: 256M
   buildpack: java_buildpack
